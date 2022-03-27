@@ -5,8 +5,7 @@ import sys
 
 
 def main():
-    """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'courseProject.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'shoppingSerializers.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
